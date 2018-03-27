@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3C3483E206ADAF1007A9B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3483D206ADAF1007A9B62 /* AppDelegate.swift */; };
+		B3C34840206ADAF1007A9B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3483F206ADAF1007A9B62 /* ViewController.swift */; };
+		B3C34843206ADAF1007A9B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C34841206ADAF1007A9B62 /* Main.storyboard */; };
+		B3C34845206ADAF1007A9B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C34844206ADAF1007A9B62 /* Assets.xcassets */; };
+		B3C34848206ADAF1007A9B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C34846206ADAF1007A9B62 /* LaunchScreen.storyboard */; };
+		B3C34853206ADAF1007A9B62 /* Bookmarks_REST_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C34852206ADAF1007A9B62 /* Bookmarks_REST_ClientTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3C3484F206ADAF1007A9B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3C34832206ADAF1007A9B62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C34839206ADAF1007A9B62;
+			remoteInfo = "Bookmarks REST Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3C3483A206ADAF1007A9B62 /* Bookmarks REST Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bookmarks REST Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C3483D206ADAF1007A9B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3C3483F206ADAF1007A9B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3C34842206ADAF1007A9B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3C34844206ADAF1007A9B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3C34847206ADAF1007A9B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3C34849206ADAF1007A9B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C3484E206ADAF1007A9B62 /* Bookmarks REST ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bookmarks REST ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C34852206ADAF1007A9B62 /* Bookmarks_REST_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmarks_REST_ClientTests.swift; sourceTree = "<group>"; };
+		B3C34854206ADAF1007A9B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C34837206ADAF1007A9B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C3484B206ADAF1007A9B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3C34831206ADAF1007A9B62 = {
+			isa = PBXGroup;
+			children = (
+				B3C3483C206ADAF1007A9B62 /* Bookmarks REST Client */,
+				B3C34851206ADAF1007A9B62 /* Bookmarks REST ClientTests */,
+				B3C3483B206ADAF1007A9B62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C3483B206ADAF1007A9B62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3483A206ADAF1007A9B62 /* Bookmarks REST Client.app */,
+				B3C3484E206ADAF1007A9B62 /* Bookmarks REST ClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C3483C206ADAF1007A9B62 /* Bookmarks REST Client */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3483D206ADAF1007A9B62 /* AppDelegate.swift */,
+				B3C3483F206ADAF1007A9B62 /* ViewController.swift */,
+				B3C34841206ADAF1007A9B62 /* Main.storyboard */,
+				B3C34844206ADAF1007A9B62 /* Assets.xcassets */,
+				B3C34846206ADAF1007A9B62 /* LaunchScreen.storyboard */,
+				B3C34849206ADAF1007A9B62 /* Info.plist */,
+			);
+			path = "Bookmarks REST Client";
+			sourceTree = "<group>";
+		};
+		B3C34851206ADAF1007A9B62 /* Bookmarks REST ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3C34852206ADAF1007A9B62 /* Bookmarks_REST_ClientTests.swift */,
+				B3C34854206ADAF1007A9B62 /* Info.plist */,
+			);
+			path = "Bookmarks REST ClientTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C34839206ADAF1007A9B62 /* Bookmarks REST Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C34857206ADAF1007A9B62 /* Build configuration list for PBXNativeTarget "Bookmarks REST Client" */;
+			buildPhases = (
+				B3C34836206ADAF1007A9B62 /* Sources */,
+				B3C34837206ADAF1007A9B62 /* Frameworks */,
+				B3C34838206ADAF1007A9B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bookmarks REST Client";
+			productName = "Bookmarks REST Client";
+			productReference = B3C3483A206ADAF1007A9B62 /* Bookmarks REST Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3C3484D206ADAF1007A9B62 /* Bookmarks REST ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C3485A206ADAF1007A9B62 /* Build configuration list for PBXNativeTarget "Bookmarks REST ClientTests" */;
+			buildPhases = (
+				B3C3484A206ADAF1007A9B62 /* Sources */,
+				B3C3484B206ADAF1007A9B62 /* Frameworks */,
+				B3C3484C206ADAF1007A9B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C34850206ADAF1007A9B62 /* PBXTargetDependency */,
+			);
+			name = "Bookmarks REST ClientTests";
+			productName = "Bookmarks REST ClientTests";
+			productReference = B3C3484E206ADAF1007A9B62 /* Bookmarks REST ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C34832206ADAF1007A9B62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Brook Li";
+				TargetAttributes = {
+					B3C34839206ADAF1007A9B62 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B3C3484D206ADAF1007A9B62 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3C34839206ADAF1007A9B62;
+					};
+				};
+			};
+			buildConfigurationList = B3C34835206ADAF1007A9B62 /* Build configuration list for PBXProject "Bookmarks REST Client" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3C34831206ADAF1007A9B62;
+			productRefGroup = B3C3483B206ADAF1007A9B62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C34839206ADAF1007A9B62 /* Bookmarks REST Client */,
+				B3C3484D206ADAF1007A9B62 /* Bookmarks REST ClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C34838206ADAF1007A9B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C34848206ADAF1007A9B62 /* LaunchScreen.storyboard in Resources */,
+				B3C34845206ADAF1007A9B62 /* Assets.xcassets in Resources */,
+				B3C34843206ADAF1007A9B62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C3484C206ADAF1007A9B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C34836206ADAF1007A9B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C34840206ADAF1007A9B62 /* ViewController.swift in Sources */,
+				B3C3483E206ADAF1007A9B62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C3484A206ADAF1007A9B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C34853206ADAF1007A9B62 /* Bookmarks_REST_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3C34850206ADAF1007A9B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3C34839206ADAF1007A9B62 /* Bookmarks REST Client */;
+			targetProxy = B3C3484F206ADAF1007A9B62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3C34841206ADAF1007A9B62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C34842206ADAF1007A9B62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3C34846206ADAF1007A9B62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C34847206ADAF1007A9B62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3C34855206ADAF1007A9B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3C34856206ADAF1007A9B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C34858206ADAF1007A9B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bookmarks REST Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.brookli.Bookmarks-REST-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3C34859206ADAF1007A9B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bookmarks REST Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.brookli.Bookmarks-REST-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3C3485B206ADAF1007A9B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bookmarks REST ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.brookli.Bookmarks-REST-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookmarks REST Client.app/Bookmarks REST Client";
+			};
+			name = Debug;
+		};
+		B3C3485C206ADAF1007A9B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bookmarks REST ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "name.brookli.Bookmarks-REST-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookmarks REST Client.app/Bookmarks REST Client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C34835206ADAF1007A9B62 /* Build configuration list for PBXProject "Bookmarks REST Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C34855206ADAF1007A9B62 /* Debug */,
+				B3C34856206ADAF1007A9B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C34857206ADAF1007A9B62 /* Build configuration list for PBXNativeTarget "Bookmarks REST Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C34858206ADAF1007A9B62 /* Debug */,
+				B3C34859206ADAF1007A9B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C3485A206ADAF1007A9B62 /* Build configuration list for PBXNativeTarget "Bookmarks REST ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C3485B206ADAF1007A9B62 /* Debug */,
+				B3C3485C206ADAF1007A9B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3C34832206ADAF1007A9B62 /* Project object */;
+}
