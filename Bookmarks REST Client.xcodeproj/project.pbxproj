@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31DCF55206C3CE400F19821 /* BookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31DCF54206C3CE400F19821 /* BookmarkTableViewCell.swift */; };
+		B36E3FEB206D7B5C007DB17A /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36E3FEA206D7B5C007DB17A /* Bookmark.swift */; };
 		B3C3483E206ADAF1007A9B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3483D206ADAF1007A9B62 /* AppDelegate.swift */; };
-		B3C34840206ADAF1007A9B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3483F206ADAF1007A9B62 /* ViewController.swift */; };
 		B3C34843206ADAF1007A9B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C34841206ADAF1007A9B62 /* Main.storyboard */; };
 		B3C34845206ADAF1007A9B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C34844206ADAF1007A9B62 /* Assets.xcassets */; };
 		B3C34848206ADAF1007A9B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C34846206ADAF1007A9B62 /* LaunchScreen.storyboard */; };
 		B3C34853206ADAF1007A9B62 /* Bookmarks_REST_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C34852206ADAF1007A9B62 /* Bookmarks_REST_ClientTests.swift */; };
+		B3C3485E206C3847007A9B62 /* BookmarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C3485D206C3847007A9B62 /* BookmarkTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B31DCF54206C3CE400F19821 /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewCell.swift; sourceTree = "<group>"; };
+		B36E3FEA206D7B5C007DB17A /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
 		B3C3483A206ADAF1007A9B62 /* Bookmarks REST Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bookmarks REST Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C3483D206ADAF1007A9B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3C3483F206ADAF1007A9B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3C34842206ADAF1007A9B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3C34844206ADAF1007A9B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3C34847206ADAF1007A9B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		B3C3484E206ADAF1007A9B62 /* Bookmarks REST ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bookmarks REST ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C34852206ADAF1007A9B62 /* Bookmarks_REST_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmarks_REST_ClientTests.swift; sourceTree = "<group>"; };
 		B3C34854206ADAF1007A9B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C3485D206C3847007A9B62 /* BookmarkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				B3C3483D206ADAF1007A9B62 /* AppDelegate.swift */,
-				B3C3483F206ADAF1007A9B62 /* ViewController.swift */,
 				B3C34841206ADAF1007A9B62 /* Main.storyboard */,
+				B3C3485D206C3847007A9B62 /* BookmarkTableViewController.swift */,
+				B36E3FEA206D7B5C007DB17A /* Bookmark.swift */,
+				B31DCF54206C3CE400F19821 /* BookmarkTableViewCell.swift */,
 				B3C34844206ADAF1007A9B62 /* Assets.xcassets */,
 				B3C34846206ADAF1007A9B62 /* LaunchScreen.storyboard */,
 				B3C34849206ADAF1007A9B62 /* Info.plist */,
@@ -199,8 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C34840206ADAF1007A9B62 /* ViewController.swift in Sources */,
 				B3C3483E206ADAF1007A9B62 /* AppDelegate.swift in Sources */,
+				B3C3485E206C3847007A9B62 /* BookmarkTableViewController.swift in Sources */,
+				B31DCF55206C3CE400F19821 /* BookmarkTableViewCell.swift in Sources */,
+				B36E3FEB206D7B5C007DB17A /* Bookmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQL7R47CL5;
 				INFOPLIST_FILE = "Bookmarks REST Client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "name.brookli.Bookmarks-REST-Client";
@@ -368,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQL7R47CL5;
 				INFOPLIST_FILE = "Bookmarks REST Client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "name.brookli.Bookmarks-REST-Client";
