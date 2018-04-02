@@ -15,4 +15,14 @@ struct Bookmark {
         self.uri = uri
         self.description = description
     }
+    init?(json: [String: Any]){
+        guard let id = json["id"] as? Int,
+            let uri = json["uri"] as? String,
+            let description = json["description"] as? String else{
+                return nil
+        }
+        self.id = id
+        self.uri = uri
+        self.description = description
+    }
 }
