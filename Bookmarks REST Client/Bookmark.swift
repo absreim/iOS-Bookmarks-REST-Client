@@ -6,7 +6,7 @@
 //  Copyright © 2018 Brook Li. All rights reserved.
 //
 
-struct Bookmark {
+struct Bookmark: Codable {
     var id: Int
     var uri: String
     var description: String
