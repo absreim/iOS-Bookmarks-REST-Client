@@ -14,6 +14,7 @@
         <!--Navigation Controller-->
         <scene sceneID="yvW-XN-7PC">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G23-b8-hSt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="FaP-2q-7Si" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VzS-AM-PLT">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -23,7 +24,6 @@
                         <segue destination="s2R-Ju-O5l" kind="relationship" relationship="rootViewController" id="hBf-9B-FPa"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="G23-b8-hSt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-366" y="30"/>
         </scene>
@@ -39,26 +39,20 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Displaying sample bookmark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tG-eP-UuQ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="19.5"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fyn-vq-GkE">
-                                    <rect key="frame" x="0.0" y="19.5" width="375" height="39.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="42"/>
                                     <subviews>
-                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Username" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="25Y-at-Bz9">
-                                            <rect key="frame" x="0.0" y="0.0" width="326" height="39.5"/>
+                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="25Y-at-Bz9">
+                                            <rect key="frame" x="0.0" y="0.0" width="326" height="42"/>
                                             <nil key="textColor"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <textInputTraits key="textInputTraits"/>
                                             <connections>
                                                 <outlet property="delegate" destination="s2R-Ju-O5l" id="pcx-ld-n1J"/>
                                             </connections>
                                         </textField>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Pd-CV-ltn">
-                                            <rect key="frame" x="326" y="0.0" width="49" height="39.5"/>
+                                            <rect key="frame" x="326" y="0.0" width="49" height="42"/>
                                             <state key="normal" title="Submit"/>
                                             <connections>
                                                 <action selector="submitButtonPressed:" destination="s2R-Ju-O5l" eventType="touchUpInside" id="HGW-2m-Lqr"/>
@@ -66,6 +60,12 @@
                                         </button>
                                     </subviews>
                                 </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Displaying sample bookmark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tG-eP-UuQ">
+                                    <rect key="frame" x="0.0" y="42" width="375" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                         </stackView>
                         <prototypes>
@@ -112,7 +112,7 @@
                     <navigationItem key="navigationItem" title="Bookmarks List" id="6Bu-Hc-0Qs">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="Xr6-XI-gXD">
                             <connections>
-                                <segue destination="xQ0-GS-Ull" kind="presentation" id="rGj-ZX-Uhf"/>
+                                <segue destination="xQ0-GS-Ull" kind="show" id="fPY-sR-TJN"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -133,8 +133,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTy-fR-TqX">
+                                <rect key="frame" x="0.0" y="154" width="88" height="30"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitButtonPressed:" destination="xQ0-GS-Ull" eventType="touchUpInside" id="FeB-0W-LsK"/>
+                                </connections>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eDq-F3-bVY">
-                                <rect key="frame" x="0.0" y="20" width="375" height="90"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="90"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ayo-0v-p4c">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
@@ -205,32 +212,36 @@
                                     <constraint firstItem="cjE-1a-X9g" firstAttribute="width" secondItem="CLC-iz-1D0" secondAttribute="width" id="n3W-Xo-i6F"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTy-fR-TqX">
-                                <rect key="frame" x="0.0" y="110" width="88" height="30"/>
-                                <state key="normal" title="Submit"/>
-                                <connections>
-                                    <action selector="submitButtonPressed:" destination="xQ0-GS-Ull" eventType="touchUpInside" id="FeB-0W-LsK"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter new bookmark details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VxL-ne-X7v">
-                                <rect key="frame" x="0.0" y="140" width="375" height="17"/>
+                                <rect key="frame" x="0.0" y="184" width="375" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWk-J3-Yb3">
+                                <rect key="frame" x="88" y="154" width="88" height="30"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="clearButtonPressed:" destination="xQ0-GS-Ull" eventType="touchUpInside" id="xUM-Em-dAV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="hPf-90-yLm" firstAttribute="trailing" secondItem="VxL-ne-X7v" secondAttribute="trailing" id="4Eq-gX-cyy"/>
                             <constraint firstItem="VxL-ne-X7v" firstAttribute="top" secondItem="CTy-fR-TqX" secondAttribute="bottom" id="GZz-kB-xIC"/>
                             <constraint firstItem="CTy-fR-TqX" firstAttribute="top" secondItem="eDq-F3-bVY" secondAttribute="bottom" id="IuG-oM-2hf"/>
+                            <constraint firstItem="yWk-J3-Yb3" firstAttribute="top" secondItem="CTy-fR-TqX" secondAttribute="top" id="Izl-Bu-1hH"/>
                             <constraint firstItem="eDq-F3-bVY" firstAttribute="top" secondItem="hPf-90-yLm" secondAttribute="top" id="WTj-yZ-bkh"/>
+                            <constraint firstItem="hPf-90-yLm" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yWk-J3-Yb3" secondAttribute="trailing" id="Xur-s1-oeH"/>
                             <constraint firstItem="CTy-fR-TqX" firstAttribute="width" secondItem="cjE-1a-X9g" secondAttribute="width" id="YGy-sC-del"/>
+                            <constraint firstItem="yWk-J3-Yb3" firstAttribute="leading" secondItem="CTy-fR-TqX" secondAttribute="trailing" id="aKg-Mk-5Jg"/>
                             <constraint firstItem="CTy-fR-TqX" firstAttribute="leading" secondItem="hPf-90-yLm" secondAttribute="leading" id="mXV-Fm-FHc"/>
                             <constraint firstItem="CTy-fR-TqX" firstAttribute="trailing" secondItem="cjE-1a-X9g" secondAttribute="trailing" id="pFz-vY-x34"/>
                             <constraint firstItem="eDq-F3-bVY" firstAttribute="leading" secondItem="KvW-ni-dud" secondAttribute="leading" id="s5q-iU-6hP"/>
                             <constraint firstItem="eDq-F3-bVY" firstAttribute="width" secondItem="KvW-ni-dud" secondAttribute="width" id="ukp-bm-8vq"/>
                             <constraint firstItem="VxL-ne-X7v" firstAttribute="leading" secondItem="hPf-90-yLm" secondAttribute="leading" id="usn-RI-uzY"/>
+                            <constraint firstItem="yWk-J3-Yb3" firstAttribute="width" secondItem="CTy-fR-TqX" secondAttribute="width" id="vjS-Ho-7me"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hPf-90-yLm"/>
                     </view>

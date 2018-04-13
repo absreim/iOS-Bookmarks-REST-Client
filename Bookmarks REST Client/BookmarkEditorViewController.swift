@@ -40,6 +40,12 @@ class BookmarkEditorViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    @IBAction func clearButtonPressed(_ sender: UIButton) {
+        usernameField.text = ""
+        uriField.text = ""
+        descriptionField.text = ""
+    }
+    
     // MARK: UITextFieldDelegate
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
